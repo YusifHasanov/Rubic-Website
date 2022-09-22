@@ -1,0 +1,182 @@
+.nav-content {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.nav-list-item:last-child > a {
+    padding: 10px 18px;
+}
+
+/*! <!--! HEADER --> */
+
+.head-content {
+    max-width: 40%;
+}
+
+.head-container {
+    justify-content: space-evenly;
+}
+
+.header-form {
+    width: 445px;
+}
+
+/*! <!--! Social Wrapper --> */
+
+.social-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-txt {
+    margin-right: 80px;
+}
+
+.social-txt > h6 {
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.social-txt > .subtitle {
+    font-size: 15px;
+    opacity: .8;
+}
+
+.social-links > a {
+    font-size: 40px;
+}
+
+/*Title section*/
+.title-section {
+    display: flex;
+    padding: 100px 150px;
+    justify-content: center;
+}
+
+.eiffel {
+    display: block;
+    max-width: 35.33333%;
+}
+
+.title-tabs {
+    max-width: 66.66667%;
+}
+
+.eiffel > img {
+    width: 100%;
+
+}
+
+.title-list {
+    margin-right: 60px;
+}
+
+.title-btn {
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.title-item > a {
+    width: 90px !important;
+    height: 90px !important;
+    line-height: 90px !important;
+}
+
+/*Media list section*/
+.media-list-section {
+    padding: 100px 150px;
+}
+
+.media-list-content {
+    max-width: 41.66667%;
+}
+
+.media-list > li:not(:first-child) > .media-icon-container {
+    width: 45px;
+}
+
+/*Standart pisture section*/
+.standart-picture-section {
+    padding: 100px 200px;
+}
+
+.s-p-txt-section {
+    max-width: 36.66667%;
+}
+
+.s-p-img {
+    max-width: 39.66667%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.awsome-section {
+
+    padding: 100px 155px;
+}
+
+.awsome-row {
+    max-width: 33.33333%;
+}
+
+.awsome-row > p {
+    width: 90%;
+}
+
+/*Cards*/
+.pricing-card {
+    width: 350px !important;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: center;
+}
+.pricing-row:nth-child(2){
+    margin-top: -42px;
+}
+.pricing-options {
+    padding: 100px 150px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pricing-box {
+     padding: 0 ;
+    margin:0 15px;
+transition: all .3s ease-in-out;
+ }
+ .pricing-box:hover{
+    transform: scale(1.1);
+ }
+.pricing-card.popular {
+    margin-top: -42px;
+}
+/*review*/
+.review{
+    padding: 100px 175px;
+}
+.review-row {
+    justify-content: center;
+}
+.review-items>.description >i{
+    opacity: 0.8;
+}
+/*Footer*/
+.contact-me{
+    padding: 100px 189px;
+}
+
+.form-btn {
+    width: 97.5%;
+}
+.footer>p{
+    font-size: 80%;
+    font-weight: 400;
+}
